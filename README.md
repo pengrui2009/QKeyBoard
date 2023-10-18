@@ -7,4 +7,7 @@
 
 ## 效果预览
 
-![contents](./resources/images/main.png)
+![contents](./resources/images/chinese.png)
+![contents](./resources/images/english.png)
+![contents](./resources/images/digit.png)
+![contents](./resources/images/bitlitter.png)

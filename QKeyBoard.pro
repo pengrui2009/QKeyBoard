@@ -32,6 +32,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        keyboardAll/qcustompushbutton.cpp \
         main.cpp \
         mainwindow.cpp \
         keyboardAll/googlepinyin/dictbuilder.cpp \
@@ -57,6 +58,7 @@ SOURCES += \
         keyboardAll/qlineeditallkeyboard.cpp
 
 HEADERS += \
+        keyboardAll/qcustompushbutton.h \
         mainwindow.h \
         keyboardAll/googlepinyin/atomdictbase.h \
         keyboardAll/googlepinyin/dictbuilder.h \
@@ -100,4 +102,8 @@ file.files += $$PWD/resources/dict/dict_pinyin.dat
 file.path = $$OUT_PWD/
 message("found files for copytarget: "$$file.path)
 INSTALLS += file
+
+RESOURCES += \
+    resources/main.qrc \
+    resources/qss.qrc
 
